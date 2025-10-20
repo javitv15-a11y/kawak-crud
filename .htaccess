@@ -1,0 +1,6 @@
+Options -Indexes
+<IfModule mod_rewrite.c>
+  RewriteEngine On 
+  RewriteCond %{REQUEST_URI} !^/kawak-crud/public/ [NC]
+  RewriteRule ^(.*)$ /kawak-crud/public/$1 [L,R=302]
+</IfModule>
