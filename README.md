@@ -55,11 +55,6 @@ Asegúrate de tener instalados los siguientes componentes:
    ```
    http://localhost/kawak-crud/public/
    ```
-   o  
-   ```
-   http://kawak-crud.test/
-   ```
-
 ---
 
 ### Ejemplo de login 🔐
